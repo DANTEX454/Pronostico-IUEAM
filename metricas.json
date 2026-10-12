@@ -1,0 +1,83 @@
+{
+  "modelo": "GradientBoosting (log)",
+  "sklearn": "1.6.1",
+  "tabla": [
+    {
+      "modelo": "Ridge",
+      "panel_MAE": 61.1,
+      "panel_RMSE": 326.98,
+      "panel_MAPE_%": 101.4,
+      "panel_Sesgo": -41.37,
+      "IUEAM_MAE": 9.28,
+      "IUEAM_RMSE": 9.78,
+      "IUEAM_MAPE_%": 82.7,
+      "IUEAM_Sesgo": 9.28
+    },
+    {
+      "modelo": "RandomForest",
+      "panel_MAE": 24.66,
+      "panel_RMSE": 100.16,
+      "panel_MAPE_%": 100.1,
+      "panel_Sesgo": 0.08,
+      "IUEAM_MAE": 7.0,
+      "IUEAM_RMSE": 8.35,
+      "IUEAM_MAPE_%": 63.8,
+      "IUEAM_Sesgo": 7.0
+    },
+    {
+      "modelo": "GradientBoosting",
+      "panel_MAE": 31.16,
+      "panel_RMSE": 285.65,
+      "panel_MAPE_%": 94.7,
+      "panel_Sesgo": 5.79,
+      "IUEAM_MAE": 4.64,
+      "IUEAM_RMSE": 5.43,
+      "IUEAM_MAPE_%": 40.9,
+      "IUEAM_Sesgo": 4.64
+    },
+    {
+      "modelo": "RandomForest (log)",
+      "panel_MAE": 25.18,
+      "panel_RMSE": 108.97,
+      "panel_MAPE_%": 85.0,
+      "panel_Sesgo": -6.12,
+      "IUEAM_MAE": 5.31,
+      "IUEAM_RMSE": 6.37,
+      "IUEAM_MAPE_%": 48.7,
+      "IUEAM_Sesgo": 5.15
+    },
+    {
+      "modelo": "GradientBoosting (log)",
+      "panel_MAE": 24.48,
+      "panel_RMSE": 112.48,
+      "panel_MAPE_%": 78.1,
+      "panel_Sesgo": -5.53,
+      "IUEAM_MAE": 3.74,
+      "IUEAM_RMSE": 4.46,
+      "IUEAM_MAPE_%": 33.7,
+      "IUEAM_Sesgo": 3.19
+    },
+    {
+      "modelo": "Baseline: mismo semestre año anterior",
+      "panel_MAE": NaN,
+      "panel_RMSE": NaN,
+      "panel_MAPE_%": NaN,
+      "panel_Sesgo": NaN,
+      "IUEAM_MAE": 3.33,
+      "IUEAM_RMSE": 3.87,
+      "IUEAM_MAPE_%": 30.7,
+      "IUEAM_Sesgo": 2.67
+    },
+    {
+      "modelo": "Holt-Winters (solo IUEAM)",
+      "panel_MAE": NaN,
+      "panel_RMSE": NaN,
+      "panel_MAPE_%": NaN,
+      "panel_Sesgo": NaN,
+      "IUEAM_MAE": 8.48,
+      "IUEAM_RMSE": 9.39,
+      "IUEAM_MAPE_%": 74.0,
+      "IUEAM_Sesgo": 8.48
+    }
+  ]
+}
